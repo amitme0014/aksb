@@ -1,0 +1,44 @@
+Notes:
+
+1)Java aur javascript do alagg programming language hai, don't get confused between two.
+2)Java mein hamm kisi bhi variable ki value ko modify kar sakte, jaise int i=100 toh ham 
+baad mein i=200 assign kar sakte.
+3)char type java mein unicode character store karte hain,
+   * jaise maan lo hame ek character variable mein hamein koi aisa value store karana ho
+     jo ki keyboard mein present hi na ho, then we can use hex code for that 
+	                    char accentedU='\u00DA'; 
+4)Jab ham ek variable ki value ko doosre variable meinn assign kar dete hain,tog ek tarah se 
+ham pahle value ki ek different copy bana dete hain.
+
+5)DIFFERENCE BETWEEN PREFIX AND POSTFIX OPERATOR
+******************************************************************************************
+Prefix operator mein pahle hi operation ho jata hai aur fir value print hoti hai eg
+                 int myval=5;
+				 system.out.println(++myval); //output=6
+				 system.out.println(myval); //output=6
+		
+Postfix operator mein operation baad mein hota hai, i.e execution k baad
+                  int myval=5;
+				  system.out.println(myval++); //output=5
+				  system.out.println(myval); //output=6
+*****************************************************************************************
+6)TYPE CONVERSION
+****************************************************************************************
+Conversion do tarike ka hota hai, pahla IMPLICIT CONVERSION, ddosra EXPLICIT CONVERSION.
+
+                              **IMPLICIT CONVERSION**
+
+*Implicit conversion mein automatically , ek data type doosre data type mein convert ho jata
+hai.Ise widening conversion bhi kahte hain.
+*Widening isliye kahte hain, kyuki we are moving towards a wider datatype.
+*Implicit conversion tab hota hai, jab ek CHOTE datatype ko BADE datatype mein store kiya
+ jata hai.Jaise integer data type ko long datatype mein.
+ 
+                              **EXPLICIT CONVERSION**
+						
+*Explicit conversion mein hamein manually type cast karna parta hai,ye tab hota hai jab 
+ham ek bade datatype ko chote datatype mein store karna chahte hain.
+                               long lVal=50;
+							   int iVal=(int) Ival;;
+*****************************************************************************************
+ 
