@@ -42,3 +42,50 @@ ham ek bade datatype ko chote datatype mein store karna chahte hain.
 							   int iVal=(int) Ival;;
 *****************************************************************************************
  
+7)DIFFERENCE BETWEEN WHILE AND DO-WHILE?
+
+difference ye hota hai ki , do while mein atleast ek baar execution hota hai fir
+condition check hoti hai, jabki while mein sabse pahle condition check hoti hai fir
+baad mein execution.
+
+***************************************************************************************
+8)for loop syntax
+
+for(initialize;	condition; update)
+***************************************************************************************
+9)for each loop
+ 
+         for(loop-variable-decleration:array) 
+		 //for(koi variable ka naam jisme value store karani ho:array ka naam)
+		      
+			  eg:
+			  float[] theVals = {10.0f,20.0f,30.0f};
+			  float sum=0.0f;
+			  for(float currentVal : theVals)
+			  
+****************************************************************************************
+10)	switch case
+
+switch case mein ham koi condition daalte hain switch stament mein, aur fir statements 
+execute karaate hain, on the basis of case match i.e jab switch statement k execution 
+ki value case k value se milti hai
+
+
+ eg                  
+                     int iVal=10;
+					 
+					 switch(iVal%2) {                                  //switch(condition)
+					 case 0:                                           //case result
+					    system.out.println(iVal);
+                        system.out.println("iVal is even");
+                        break;
+
+                     case 1:
+                        system.out.println(iVal);
+                        system.out.println("iVal is odd");
+                        break;					 
+						
+					default:
+					    system.out.println("oops it broke");
+                        break;
+					 }
