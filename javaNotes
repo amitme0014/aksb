@@ -89,3 +89,42 @@ ki value case k value se milti hai
 					    system.out.println("oops it broke");
                         break;
 					 }
+******************************************************************************************
+11)What is a class?
+Ans: A class is template for creating an object.
+matlab ki ye ek rooprekha hai ki object ki properties kaisi hongi, ek class mein fields hote 
+aur methods hote. Jaise ki ek real world object ka example lein ham... toh wo hai car, Ab car 
+k fields k baare mein baat karein toh matlab uski properties jaise colour,brand,engine horsepo
+wer ,ye sab variables hain ab agar methods ki baat karein toh,jaise speedIncreament,ApplyingBreaks
+etc ye sab operations ho gaye.
+********************************************************************************************
+12)Why Main method is required to run an application?
+Ans:Hamara application run karta hai JVM pe ,aur JVM ko application execute karne k liye main 
+method chahiye hota hai.
+********************************************************************************************
+13)What are constructors?
+Ans: Ek class mein jitte bhi variable hote hain, unhe initiate karna rahta hai ...isliye ham
+constructors ka use karte hain.
+*Jab bhi ham kuch object banaate hain toh, memory consume hoti hai,ye memory consumption ka kaam
+hota hai mostly constructors dwara.
+*Constructor ek piece of code hota hai,jo tab run karta hai jab ham class ko instantiate karte hain.
+*************************************************************************************************
+14)Java mein har object ek reference hota hai jo ki refer karta hai ek memory block ko jo ki us class 
+k properties aur methods ko hold karne k barabar hota hai.
+***************************************************************************************************
+15)Java mein ham jab bhi do objects banate hain same class ke, toh wo do reference hote hain, us class 
+ke memory block ke.
+*us memory block mein, us class k properties aur variable hold hote hain.
+      Object object1=new Object();
+	  Object object2=new Object();
+	  
+	  
+is case mein dono object, do references hain, same class k memory block k.Agar ham ek object ko doosre 
+object mein assign kar dein toh, kewal ek reference rah jayega aur doosra automatically remove ho jayega
+memory se kyuki java apne aap memory management karta hai.
+*********************************************************************************************************
+16)What is encapsulation and access modifier?
+Ans:Funda ye hota hai ki, ham object ki details ko jaise ki uske methods aur properties ko access rights dein 
+apne mutaabik.Jaise ek class mein ham agar kisi variable ko private hamne kiya toh wo kewal usi classs mein use
+ho sakta.
+***********************************************************************************************************
