@@ -128,3 +128,67 @@ Ans:Funda ye hota hai ki, ham object ki details ko jaise ki uske methods aur pro
 apne mutaabik.Jaise ek class mein ham agar kisi variable ko private hamne kiya toh wo kewal usi classs mein use
 ho sakta.
 ***********************************************************************************************************
+17)Constructor k baare mein detail mein discuss kijiye?
+ANs:Constructor ka main funda hota hai, variables ko initialize karna, Agar ham apne aap constructor ko initialize 
+nai karte hain toh, ek default constructor java apne aap bana deta hai, jisme sab variables ki default value store
+hoti hai.
+Jaise integer ki 0.
+Eg. of constuctor
+
+Public class Student(){
+ 
+ private integer rollNo;
+ private String Name;
+ 
+ Public Student(integer rollNo){         //One Arg constructor
+ this.rollNo=rollNo;
+ }
+ Public Student(integer rollNo,String Name){
+ this(rollNo);                            //Two arg constructor,this(rollNo) represent initialization of rollNo
+ this.Name=name;
+ }
+ 
+}
+*****************************************************************************************************************
+18)Constructor chaining kya hota hai?
+Ans: Maan lo ki ek aisa scenario hai ki, hamein value initialize karni hai, based on a specific condition ki 
+agar kisi k paas wnumber of free bag 1 ho toh use charge karo 25 dollar par agar uske paas 1 se zada ho toh charge kre 
+50 dollar. 
+Toh ham below example k through is scenairio ka use kar sakte.
+#################################################################################################################
+package com.amit.in;
+
+public class ConstructorChaining {
+
+	private int freebag;
+	private int chargePerBag;
+	private double extraBaggageCharge;
+
+	public ConstructorChaining(int freebag){
+		this(freebag > 1 ? 25.0d : 50d);
+		this.freebag=freebag;
+	}
+
+	public ConstructorChaining(int freebag,int chargePerBag){
+		this(freebag);
+		this.chargePerBag=chargePerBag;
+	}
+
+	private ConstructorChaining(double extraBaggageCharge){
+		this.extraBaggageCharge=extraBaggageCharge;
+	}
+
+	public int getFreebag() {
+		return freebag;
+	}
+
+	public int getChargePerBag() {
+		return chargePerBag;
+	}
+
+	public double getExtraBaggageCharge() {
+		return extraBaggageCharge;
+	}
+#####################################################################################################################
+19)
+	
