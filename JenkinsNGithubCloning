@@ -1,0 +1,5 @@
+https cloning k liye developer settings mein jaa k personal token generate karna parta hai aur fir as a username and password 
+add karna parta hai, jenkins mein... through this way it can clone.
+
+SSH url cloning k liye, jenkins home directory mein jaa k public key ko as a cred save kar do...cloning k dauran public private key handshake 
+ho jayega and it will clone the repo.
